@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background: url("./background.jpg");
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+  color: rgb(80, 87, 96);
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+.nav-links li {
+  padding-left: 5rem;
+  font-size: 1.2rem;
+}
+
+.nav-links li:last-child {
+  font-family: "Lobster", cursive;
+  color: black;
+}
+
+.nav-links li:hover{
+  color: gray;
+}
+
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: black;
+}
+
+#logo_contact {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 3rem;
+  color: black;
+
+}
+
+.label {
+  color: black;
+}
+
+.big-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  font-size: 5rem;
+  font-family: "Lobster", cursive;
+  color: rgb(68, 72, 96);
+}
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background: rgb(68, 72, 96);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: rgb(233, 233, 233);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+}
+
+.hide {
+  background: black;
+  overflow: hidden;
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+}
+
+.landing img{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+/* rocket */
+
+.scene{
+  position: relative;
+  width: -100%;
+  height: 90vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scene .rocket{
+  position: relative;
+  top: -3%;
+  justify-content: center;
+  align-items: center;
+  animation: animate 1s ease infinite;
+}
+
+@keyframes animate {
+  0%,100%{
+    transform: translateY(-1px);
+  }
+  50%{
+    transform: translateY(1px);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .scene{
+    transform: translateY(20%);
+  }
+
+  .nav-links{
+    display: flex;
+    margin: auto;
+    margin-right: auto;
+  }
+}
