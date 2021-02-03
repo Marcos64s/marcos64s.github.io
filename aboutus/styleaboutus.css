@@ -80,8 +80,7 @@ a {
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
-    display: block;
-    background-color: rgb(130, 130, 130);
+    display: block
   }
 }
 
