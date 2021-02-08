@@ -19,5 +19,6 @@
 
   mail($to,$email_subject,$email_body,$headers);
 
-  header("Location: main.html");
+  header("Location: fastqr.github.io/main.html");
+  die()
  ?>
