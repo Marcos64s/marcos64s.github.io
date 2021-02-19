@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  vfont-family: "Heebo", sans-serif;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.header {
+  padding: 60px;
+  vfont-family: "Lobster", sans-serif;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 30px;
+}
+
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 7rem;
+  color: white;
+}
+
+.dragdrop:last-child {
+  display: block;
+  text-align: center;
+}
+
+.content {padding:20px;}
