@@ -7,3 +7,4 @@ tl.fromTo("nav", { opacity: 0 }, { opacity: 1, duration: 1 });
 tl.fromTo(".big-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 tl.fromTo(".nav-links li:last-child",{ opacity: 0 }, { opacity: 1, duration: 3 }, "-=1")
 tl.fromTo(".scene",{ opacity: 0 }, { opacity: 1, duration: 1 }, "-=2.8")
+tl.fromTo(".footer-clean",{ opacity: 0 }, { opacity: 1, duration: 1 }, "-=3")
