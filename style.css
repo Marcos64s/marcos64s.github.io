@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.form-section, .preview-section {
+  width: 45%;
+  margin: 20px auto;
+}
+
+.form-section input, .form-section button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.signature-preview {
+  border: 1px solid #ddd;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  text-align: left;
+}
