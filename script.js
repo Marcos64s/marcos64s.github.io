@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ${department}<br>
       <a href="mailto:${email}">${email}</a><br>
       Tel: ${phone}<br>
-      <img src="assets/it.jpg" alt="IT Logo" class="logo">
+      <img src="assets/it.jpg" alt="IT Logo" class="logo"><br>
       <img src="assets/nap.png" alt="NAP Logo" class="logo">
     `;
   }
